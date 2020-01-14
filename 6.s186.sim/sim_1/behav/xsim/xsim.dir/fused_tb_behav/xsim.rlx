@@ -1,0 +1,12 @@
+
+{ 
+    crc :  10173862316303848186  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 95e9df3c4d9240069cedc4f1da9a4f4a --incr --debug typical --relax --mt 8 -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L xbip_pipe_v3_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_15 -L floating_point_v7_1_8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fused_tb_behav xil_defaultlib.fused_tb xil_defaultlib.glbl" , 
+    buildDate : "Aug  9 2019" , 
+    buildTime : "16:44:31" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/fused_tb_behav/xsimk\"   \"xsim.dir/fused_tb_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/fused_tb_behav/obj/xsim_1.lnx64.o\" \"xsim.dir/fused_tb_behav/obj/xsim_2.lnx64.o\" \"xsim.dir/fused_tb_behav/obj/xsim_3.lnx64.o\" -L\"/var/local/xilinx-local/Vivado/2019.1/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

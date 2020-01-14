@@ -1,0 +1,8 @@
+0.6
+2019.1
+Aug  9 2019
+16:44:31
+/afs/athena.mit.edu/user/r/o/robgauna/6.s186/6.s186.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/afs/athena.mit.edu/user/r/o/robgauna/6.s186/6.s186.srcs/sim_1/new/fused_tb.sv,1578952213,systemVerilog,,,,fused_tb,,,,,,,,
+/afs/athena.mit.edu/user/r/o/robgauna/6.s186/6.s186.srcs/sources_1/ip/fused_med_res/sim/fused_med_res.vhd,1578948899,vhdl,,,,fused_med_res,,,,,,,,
+/afs/athena.mit.edu/user/r/o/robgauna/6.s186/6.s186.srcs/sources_1/new/fused_medres.sv,1578952704,systemVerilog,,/afs/athena.mit.edu/user/r/o/robgauna/6.s186/6.s186.srcs/sim_1/new/fused_tb.sv,,fused_medres,,,,,,,,
