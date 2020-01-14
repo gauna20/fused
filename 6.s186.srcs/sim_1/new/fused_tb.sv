@@ -26,15 +26,14 @@ module fused_tb;
     logic a_ready, a_valid, 
           b_ready, b_valid,
           c_ready, c_valid,
-          result_ready, result_valid;
+          result_ready, result_valid = 1;
     logic clk;
 
-    fused_medres fused(.a_data(a_data), .b_data(b_data), .c_data(c_data), .result(result),
-                       .a_valid(a_valid), .a_ready(a_ready),
-                       .b_valid(b_valid), .b_ready(b_ready),
-                       .c_valid(c_valid), .c_ready(c_ready),
-                       .result_valid(result_valid), .result_ready(result_ready),
-                       .clk(clk));
+    fused_med_res fused(.aclk(clk), 
+                        .s_axis_a_tdata(a_data), .s_axis_a_tvalid(a_valid), .s_axis_a_tready(a_ready),
+                        .s_axis_b_tdata(b_data), .s_axis_b_tvalid(b_valid), .s_axis_b_tready(b_ready),
+                        .s_axis_c_tdata(c_data), .s_axis_c_tvalid(c_valid), .s_axis_c_tready(c_ready),
+                        .m_axis_result_tdata(result), .m_axis_result_tready(result_ready), .m_axis_result_tvalid(result_valid));
 
     always begin
         #5;
@@ -43,15 +42,19 @@ module fused_tb;
 
     initial begin
         clk = 0;
-        a_valid = 1;
-        b_valid = 1;
-        c_valid = 1;
-        result_ready = 1;
+        #5
         
         a_data = -5;
         b_data = -5;
         c_data = -5;
         #5;
+        
+        /**
+        a_valid = 1;
+        b_valid = 1;
+        c_valid = 1;
+        result_ready = 1;
+        **/
     end
 
 endmodule

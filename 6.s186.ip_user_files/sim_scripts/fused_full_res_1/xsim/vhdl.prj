@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../6.s186.srcs/sources_1/ip/fused_full_res_1/sim/fused_full_res.vhd" \
+
+nosort

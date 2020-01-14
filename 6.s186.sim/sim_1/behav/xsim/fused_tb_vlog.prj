@@ -1,6 +1,5 @@
 # compile verilog/system verilog design source files
 sv xil_defaultlib  \
-"../../../../6.s186.srcs/sources_1/new/fused_medres.sv" \
 "../../../../6.s186.srcs/sim_1/new/fused_tb.sv" \
 
 # compile glbl module

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Jan 14 17:15:18 2020
+# Process ID: 15508
+# Current directory: C:/Users/rob/Desktop/6.s186/6.s186.runs/fused_med_perf_synth_1
+# Command line: vivado.exe -log fused_med_perf.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fused_med_perf.tcl
+# Log file: C:/Users/rob/Desktop/6.s186/6.s186.runs/fused_med_perf_synth_1/fused_med_perf.vds
+# Journal file: C:/Users/rob/Desktop/6.s186/6.s186.runs/fused_med_perf_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fused_med_perf.tcl -notrace
