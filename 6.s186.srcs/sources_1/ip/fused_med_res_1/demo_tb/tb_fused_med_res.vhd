@@ -82,8 +82,8 @@ architecture tb of tb_fused_med_res is
   -----------------------------------------------------------------------
   -- Timing constants
   -----------------------------------------------------------------------
-  constant CLOCK_PERIOD : time := 100 ns;
-  constant T_HOLD       : time := 10 ns;
+  constant CLOCK_PERIOD : time := 10 ns;
+  constant T_HOLD       : time := 5 ns;
   constant T_STROBE     : time := CLOCK_PERIOD - (1 ns);
   constant DUT_DELAY    : time := CLOCK_PERIOD * 17;
 

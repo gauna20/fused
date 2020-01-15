@@ -2,3 +2,6 @@ Running: xsim.dir/fused_tb_behav/xsimk.exe -simmode gui -wdb fused_tb_behav.wdb 
 Design successfully loaded
 Design Loading Memory Usage: 6872 KB (Peak: 6872 KB)
 Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 8424 KB (Peak: 8424 KB)
+Simulation CPU Usage: 46 ms

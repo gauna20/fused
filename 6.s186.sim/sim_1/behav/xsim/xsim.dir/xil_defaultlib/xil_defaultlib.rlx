@@ -4,5 +4,6 @@ May 24 2019
 15:06:07
 C:/Users/rob/Desktop/6.s186/6.s186.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
 C:/Users/rob/Desktop/6.s186/6.s186.srcs/sim_1/new/fused_tb.sv,1579041299,systemVerilog,,,,fused_tb,,,,,,,,
-C:/Users/rob/Desktop/6.s186/6.s186.srcs/sources_1/ip/fused_med_res_1/sim/fused_med_res.vhd,1579039103,vhdl,,,,fused_med_res,,,,,,,,
+C:/Users/rob/Desktop/6.s186/6.s186.srcs/sources_1/ip/fused_med_res_1/demo_tb/tb_fused_med_res.vhd,1579042802,vhdl,,,,tb_fused_med_res,,,,,,,,
+C:/Users/rob/Desktop/6.s186/6.s186.srcs/sources_1/ip/fused_med_res_1/sim/fused_med_res.vhd,1579039103,vhdl,C:/Users/rob/Desktop/6.s186/6.s186.srcs/sources_1/ip/fused_med_res_1/demo_tb/tb_fused_med_res.vhd,,,fused_med_res,,,,,,,,
 C:/Users/rob/Desktop/6.s186/6.s186.srcs/sources_1/new/fused_medres.sv,1578952704,systemVerilog,,C:/Users/rob/Desktop/6.s186/6.s186.srcs/sim_1/new/fused_tb.sv,,fused_medres,,,,,,,,
